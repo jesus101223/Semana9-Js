@@ -8,15 +8,15 @@ int main() {
     int filas, columnas;
     int i, j;
 
-    printf("Ingrese el número de filas de la matriz: ");
+    printf("Ingrese el numero de filas de la matriz: ");
     scanf("%d", &filas);
 
-    printf("Ingrese el número de columnas de la matriz: ");
+    printf("Ingrese el numero de columnas de la matriz: ");
     scanf("%d", &columnas);
 
     int matriz[MAX][MAX];
 
-    // Llenar la matriz con números aleatorios entre 0 y 100
+    // Llenar la matriz con numeros aleatorios entre 0 y 100
     srand(time(NULL));
     for (i = 0; i < filas; i++) {
         for (j = 0; j < columnas; j++) {
